@@ -81,6 +81,7 @@ def create_classifier(classifier_name, input_shape, nb_classes, output_directory
 
 # change this directory for your machine
 root_dir = '/b/home/uha/hfawaz-datas/dl-tsc-temp/'
+#root_dir = '/nfs/collab/eccarter/dl-4-tsc/data'
 
 if sys.argv[1] == 'run_all':
     for classifier_name in CLASSIFIERS:
